@@ -1,7 +1,5 @@
 package com.isartdigital.insidious.game 
 {
-	import com.isartdigital.insidious.game.leveldesign.LevelManager;
-	
 	/**
 	 * ...
 	 * @author Colin MONGABURE
@@ -13,17 +11,6 @@ package com.isartdigital.insidious.game
 		{
 			
 		}
-		
-		public static function startGame():void
-		{
-			LevelManager.start();
-		}
-		
-		
-		
-		
-		
-		
 		
 	}
 

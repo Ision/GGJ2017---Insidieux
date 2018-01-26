@@ -1,6 +1,5 @@
 package com.isartdigital.insidious.game.props 
 {
-	import flash.events.MouseEvent;
 	/**
 	 * ...
 	 * @author Colin MONGABURE
@@ -25,6 +24,7 @@ package com.isartdigital.insidious.game.props
 		public function Player() 
 		{
 			super();
+			
 		}
 		
 		/**

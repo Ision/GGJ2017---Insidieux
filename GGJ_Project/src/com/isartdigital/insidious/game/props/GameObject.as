@@ -12,6 +12,7 @@ package com.isartdigital.insidious.game.props
 		public function GameObject() 
 		{
 			super();
+			
 		}
 		
 	}
