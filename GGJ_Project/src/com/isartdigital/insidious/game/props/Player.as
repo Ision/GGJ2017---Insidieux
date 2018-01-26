@@ -1,6 +1,6 @@
 package com.isartdigital.insidious.game.props 
 {
-	import flash.events.MouseEvent;
+	import flash.geom.Point;
 	/**
 	 * ...
 	 * @author Colin MONGABURE
@@ -25,7 +25,24 @@ package com.isartdigital.insidious.game.props
 		public function Player() 
 		{
 			super();
+			
 		}
+		
+		override protected function doActionNormal():void 
+		{
+			super.doActionNormal();
+			
+			
+		}
+		
+		private function goTo(pTargetedObject:Point)
+		{
+			
+			x = pTargetedObject.x;
+			y = pTargetedObject.y;
+			
+		}
+		
 		
 		/**
 		 * détruit l'instance unique et met sa référence interne à null
