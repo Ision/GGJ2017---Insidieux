@@ -16,7 +16,9 @@ package com.isartdigital.insidious.game
 		
 		public static function startGame():void
 		{
+			
 			LevelManager.start();
+			
 		}
 		
 		
