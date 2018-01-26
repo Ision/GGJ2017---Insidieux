@@ -1,6 +1,7 @@
 package com.isartdigital.insidious.game.props.interactives 
 {
 	import com.isartdigital.insidious.game.props.GameObject;
+	import flash.events.MouseEvent;
 	
 	/**
 	 * ...
@@ -12,7 +13,11 @@ package com.isartdigital.insidious.game.props.interactives
 		public function interactives() 
 		{
 			super();
-			
+			addEventListener(MouseEvent.CLICK, takeControl)
+		}
+		
+		public function takeControl(pEvent:MouseEvent):void {
+			trace("Surprise MotherFucker");
 		}
 		
 	}

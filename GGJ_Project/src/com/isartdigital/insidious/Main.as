@@ -1,6 +1,10 @@
 package com.isartdigital.insidious {
 
+	import com.isartdigital.insidious.game.props.Player;
+	import com.isartdigital.insidious.game.props.interactives.InteractiveObject0;
+	import com.isartdigital.insidious.game.props.interactives.interactives;
 	import flash.display.MovieClip;
+	import flash.events.Event;
 	
 	/**
 	 * ...
@@ -28,7 +32,6 @@ package com.isartdigital.insidious {
 			
 			//TODO: Ne pas oublier de compléter le nom de la classe Document avec le package com.isartdigital.insidious dans Animate.
 			trace ("here we go!");
-			
 		}
 			
 		public function destroy (): void {
